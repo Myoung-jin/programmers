@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.com">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="post" th:action="@{/api/users/addUser}"><br/>
+	UserID : <input type="text" name="userId" /><br/>
+	Email : <input type="text" name="email" /><br/>
+	Password : <input type="password" name="passwd" /><br/>
+	<button type="submit">추가</button>
+</form>
+</body>
+</html>
